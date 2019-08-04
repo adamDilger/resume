@@ -1,0 +1,125 @@
+\documentclass{article}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\author{Adam Dilger}
+\title{Resume}
+
+\usepackage{titlesec}
+\usepackage{titling}
+% \usepackage[margin=1in, top=0.5in]{geometry}
+\usepackage[margin=1in]{geometry}
+
+% ----- STYLES -----------------------
+\titleformat{\section}
+{\Large\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+% ------ MACROS ----------------------
+\newcommand{\worktitle}[4]{
+  \setlength{\parindent}{0pt}
+  \small
+  \textbf{#3}:
+  \hfill
+  \textbf{#1 - #2}
+
+  % COMPANY
+  \textit{#4}
+}
+
+\renewcommand{\maketitle}{
+  \begin{center}
+  \huge\textbf{Adam Dilger}
+  \vspace{1mm}
+
+
+  \normalsize
+  adamdilger1@gmail.com
+  \textbar
+  \space
+  0487349370
+  \end{center}
+}
+
+% ------ DOCUMENT --------------------------------
+
+\begin{document}
+
+\maketitle
+
+% -------- Experience -----------------------------------
+\section{Experience}
+
+\worktitle
+{Jan 2018}{Present}
+{Associate Consultant}
+{RXP Group}
+\begin{itemize}
+  \item Full Stack Web Developer responsible for providing Managed Services support to various clients across a range of technology stacks.
+  \item Projects/Technologies include:
+  \begin{itemize}
+    \item Betfair Live: ReactJS , AWS Python and NodeJS Lambda backends with MySQL/REDIS integrations
+    \item Aurora PAYG+: ReactJS, ReactNative mobile application, d3.js charting library, .NET backend with SOAP integration, Azure hosting
+  \end{itemize}
+\end{itemize}
+
+\vspace{4mm}
+
+\worktitle
+{Jul 2017}{Aug 2017}
+{Mobile Application Developer}
+{SEMF Pty Ltd Engineering Consultants}
+\begin{itemize}
+  \item Tasked with design, development and distribution of a custom "Minutes of Meeting .docx creator" for SEMF Employees across their three branches.
+  \item Technologies used:
+  \begin{itemize}
+    \item iOS : Swift 3, CoreData, GRMustache.swift Templating library
+  \end{itemize}
+\end{itemize}
+
+\vspace{4mm}
+
+\worktitle
+{Nov 2015}{Feb 2016}
+{Mobile Application Developer}
+{SEMF Pty Ltd Engineering Consultants}
+\begin{itemize}
+  \item Tasked with design, development and distribution of a "safety report building" mobile application for use by SEMF Employees for use across their three branches.
+
+  \item Technologies used:
+  \begin{itemize}
+    \item Android: Java, iText PDF Creation Library, jsoup HTML Parser, HTML+CSS
+    \item iOS: Swift 2, GRMustache.swift Templating Library, HTML+CSS
+  \end{itemize}
+\end{itemize}
+
+% -------- SKILLS ---------------------------------------
+\section{Skills}
+
+\begin{itemize}
+  \item React Javascript Framework
+  \item React Native Mobile Framework
+  \item Android/iOS Native Development
+  \item NodeJS/Python scripting
+
+  \item Procient in using Bash terminal
+  \begin{itemize}
+    \item Text parsing with grep/sed etc
+    \item Confident with Git CLI
+    \item VIM editor
+  \end{itemize}
+
+  \item Other Languages
+  \begin{itemize}
+    \item Python, Swift, C\#, HTML, CSS (SASS)
+  \end{itemize}
+\end{itemize}
+
+\section{Education}
+\begin{itemize}
+  \item University of Tasmania, BSC (Computer Science, Mathematics)
+\end{itemize}
+
+\end{document}
