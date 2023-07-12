@@ -67,6 +67,8 @@
 }
 
 #let right_rect = [
+	I am a software developer with enthusiasm and a constant drive to improve my craft. I have over 5 years professional experience in a range of different technologies, in which time I have immersed myself in the programming landscape to further expand the scope of my skillset. 
+
   = Experience
   #exp(
     title: "Full Stack Developer",
