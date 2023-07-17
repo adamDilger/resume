@@ -52,7 +52,7 @@
 		-	Cooking
 		-	Guitar
 		-	Golf
-		-	Listening to Podcasts
+		-	Podcasts
 		-	Programming
 	]
 ]
@@ -67,7 +67,8 @@
 }
 
 #let right_rect = [
-	I am a software developer with enthusiasm and a constant drive to improve my craft. I have over 5 years professional experience in a range of different technologies, in which time I have immersed myself in the programming landscape to further expand the scope of my skillset. 
+	I am a software developer with a keen interest and a constant drive to improve my craft. I have over 5 years professional experience in a range of different technologies, in which time I have immersed myself in the programming domain to further expand my knowledge and skillset. 
+	I am an enthusiastic member of any team, enjoying collaboration and learning from my peers.
 
   = Experience
   #exp(
@@ -76,7 +77,7 @@
     time: "Feb 2020 - Present"
   )
    
-    Senior-level developer tasked with designing, developing and testing features and bugfixes in new and existing codebases.
+    Senior-level developer tasked with designing, developing and testing features and bugfixes in new and existing codebases. In this role, I was assigned the responsibility of maintaining Geometry's core codebase, and was instrumental in the process of releasing upgrades and improvements that were consumed by a number of projects.
 
     Projects:
     - _*Geometry Enterprise Platform (GEP)*_
@@ -88,7 +89,7 @@
       - An implementation of a GEP project
 
     Achievements:
-  - Implemented NPM/Webpack/Javascript Modules into legacy Java web stack, applying across multiple projects with a non-breaking migration path
+  - Implemented NPM/Webpack/Javascript Modules into legacy Java web stack, applying across multiple projects maintaining feature parity with minimal breaking changes
   - Implemented StarUML based code generator with Java/Freemarker templates, migrating from a bespoke legacy Win32 Application and proprietary file format
   - Implemented daily time logging system for Geometry staff using Vue3/Tailwind/Golang/Docker, migrating from a PHP stack
   - Implemented a custom Golang CLI tool to generate and manage a shared changelog.md file with structured YAML files
@@ -99,11 +100,11 @@
     time: "Jan 2018 - Feb 2020"
   )
 
-  Mid-level developer tasked with working in Agile based teams to provide managed services to a range of products and technologies.
+  Mid-level developer tasked with working in teams to provide managed services to a range of products and technologies. In this role I worked with business analysts and clients to deliver bugfixes and enhancements in monthly releases. 
 
   Projects:
   - _*Aurora PAYG+*_
-    - ReactJS, ReactNative, d3.js charting library, .NET Web API, Azure infrastructure, TeamCity CI
+    - ReactJS, ReactNative, d3.js charts, .NET Web API, Azure infrastructure, TeamCity CI
   - _*Betfair Live*_
     - ReactJS, AWS Python and NodeJS Lambda backends, Bitbucket CI
 
@@ -113,7 +114,7 @@
     time:"Nov 2015 - Aug 2017"
   )
 
-  Solo developer tasked with design, development, deployment and support of 2 custom mobile applications.
+  Solo developer tasked with design, development, deployment and support of 2 custom mobile applications. 
   
   Projects:
   - Minutes of Meeting DOCX Generator iPad App &
@@ -128,6 +129,9 @@
 
   *Christmas List Manager*
   - Pocketbase/Vue3 PWA to view, manage and update live Christmas lists for a group of people, authenticated via Google Oauth
+
+	\
+	\
 
   *StarUML MDJ difftool*
   - Golang based CLI tool to display a coloured text diff of two StarUML ER Diagram JSON files
