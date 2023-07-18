@@ -100,13 +100,17 @@
     time: "Jan 2018 - Feb 2020"
   )
 
-  Mid-level developer tasked with working in teams to provide managed services to a range of products and technologies. In this role I worked with business analysts and clients to deliver bugfixes and enhancements in monthly releases. 
+  Mid-level developer tasked with providing managed services to a range of products and technologies. In this role I worked with business analysts and clients directly to triage,
+scope and deliver bugfixes and enhancements in a montly release cycle.
 
   Projects:
   - _*Aurora PAYG+*_
-    - ReactJS, ReactNative, d3.js charts, .NET Web API, Azure infrastructure, TeamCity CI
+    - ReactJS frontend with d3.js charts component
+    - .NET Web API deployed on Azure infrastructure, built with TeamCity CI
+  	- ReactNative mobile application
   - _*Betfair Live*_
-    - ReactJS, AWS Python and NodeJS Lambda backends, Bitbucket CI
+    - ReactJS frontend with VictoryCharts component
+    - AWS Python and NodeJS Lambda backends built with Bitbucket CI
 
   #exp(
     title: "Mobile Application Developer",
@@ -114,14 +118,17 @@
     time:"Nov 2015 - Aug 2017"
   )
 
-  Solo developer tasked with design, development, deployment and support of 2 custom mobile applications. 
+  Solo developer tasked with design, development, deployment and support of 2 custom mobile applications. In this role I was tasked with managing the full project lifecycle and
+  support of a mobile application deployed to both Android and Apple ecosystems.
   
   Projects:
   - Minutes of Meeting DOCX Generator iPad App &
   - Take 5 Safety Report Generator iOS/Android App
     - iOS: Swift 3, CoreData, GRMustache.swift templating
     - Android: Java, iText PDF Creation Library, jsoup HTML Parser, HTML + CSS
+]
 
+#let personal_projects = [
   = Personal Projects
 
   *Raspberry Pi Time Tracker*
@@ -129,9 +136,6 @@
 
   *Christmas List Manager*
   - Pocketbase/Vue3 PWA to view, manage and update live Christmas lists for a group of people, authenticated via Google Oauth
-
-	\
-	\
 
   *StarUML MDJ difftool*
   - Golang based CLI tool to display a coloured text diff of two StarUML ER Diagram JSON files
@@ -148,4 +152,13 @@
   rows: (auto),
   block(pad(top: 6pt, right: 10pt, left_rect)),
   block(stroke: (left: 1pt + lightgray), pad(left: 10pt, right_rect))
+)
+
+#pagebreak()
+
+#grid(
+  columns: (160pt, auto),
+  rows: (auto),
+  block(pad(top: 6pt, right: 10pt)[]),
+  block(stroke: (left: 1pt + lightgray), pad(left: 10pt, personal_projects))
 )
