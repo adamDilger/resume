@@ -24,12 +24,12 @@
 		marker: pad(top: 1pt, circle(radius: 2pt, fill: blue)),
 		spacing: 16pt,
 		[adamdilger1@\gmail.com],
-		[3/14 Lochner Street West Hobart TAS 7000],
-		[0487 349 370],
+		[\<home_address\>],
+		[\<mobile_phone\>],
 	)
 
 	#line(stroke: rgb("D8D8D8"), length: 100%)
-   = Education	
+   = Education
    *Bachelor of Science* - 2018 \
    #text(8pt)[_University of Tasmania_] \
    #text(6pt)[(Maj. Comp Sci, Min. Mathematics)]
@@ -38,13 +38,16 @@
   == Technical Skills
   -	Javascript/Typescript
   -	NodeJS/npm/webpack/vite
-  -	Vue 3
-  -	TailwindCSS
   -	Java/Spring
-  -	SQL/ORM
+  -	Vue 3/Nuxt
   -	Golang
+  -	TailwindCSS
+  -	SQL/ORM
   -	Docker
-  -	vim/git/gnu-utils/tmux
+  - Serverless
+    - (cloudflare workers, deno deploy)
+  - CLI tools
+    -	vim/git/gnu-utils/tmux
 
 	#line(stroke: rgb("D8D8D8"), length: 100%)
 	#text[
@@ -67,8 +70,9 @@
 }
 
 #let right_rect = [
-	I am a software developer with a keen interest and a constant drive to improve my craft. I have over 5 years professional experience in a range of different technologies, in which time I have immersed myself in the programming domain to further expand my knowledge and skillset. 
-	I am an enthusiastic member of any team, enjoying collaboration and learning from my peers.
+	I am a software developer with 6+ years of experience in a range of different technologies. I am motivated to produce work of a high quality, driven to continuously learn and improve. I am enthusiastic about working in a team environment, enjoying problem solving and collaborating with my peers.
+
+  Throughout my career, I have actively sought to expand my knowledge beyond my work duties; learning new technologies by working on personal projects. I keep up to date with the latest industry trends and best practices by listening to podcasts and reading online resources.
 
   = Experience
   #exp(
@@ -76,7 +80,7 @@
     company: "Geometry Pty Ltd",
     time: "Feb 2020 - Present"
   )
-   
+
     Senior-level developer tasked with designing, developing and testing features and bugfixes in new and existing codebases. In this role, I was assigned the responsibility of maintaining Geometry's core codebase, and was instrumental in the process of releasing upgrades and improvements that were consumed by a number of projects.
 
     Projects:
@@ -120,7 +124,7 @@ scope and deliver bugfixes and enhancements in a montly release cycle.
 
   Solo developer tasked with design, development, deployment and support of 2 custom mobile applications. In this role I was tasked with managing the full project lifecycle and
   support of a mobile application deployed to both Android and Apple ecosystems.
-  
+
   Projects:
   - Minutes of Meeting DOCX Generator iPad App &
   - Take 5 Safety Report Generator iOS/Android App
@@ -129,22 +133,24 @@ scope and deliver bugfixes and enhancements in a montly release cycle.
 ]
 
 #let personal_projects = [
-  = Personal Projects
+= Personal Projects
 
-  *Raspberry Pi Time Tracker*
-  - Golang/sqlite/svelte app to track and log the time of entering and leaving the office, deployed with Docker on a Raspberry Pi, using CSS animations to display the data in the look of a radar
+*#underline(link("https://adventory.gift")[Adventory]) - Christmas Present List Manager*
+- Vue3/Nuxt PWA to view, manage and update live Christmas lists for a group, deployed on cloudflare workers with turso database, authenticated via Google Oauth
 
-  *Christmas List Manager*
-  - Pocketbase/Vue3 PWA to view, manage and update live Christmas lists for a group of people, authenticated via Google Oauth
+*E-paper display wireless dashboard*
+- Custom ESP32 based e-paper display to show live data from a range of sources including weather, solar power generation, with data collated/polled from a deno deploy serveless function
 
-  *StarUML MDJ difftool*
-  - Golang based CLI tool to display a coloured text diff of two StarUML ER Diagram JSON files
+*Raspberry Pi Time Tracker*
+- Golang/sqlite/svelte app to track and log the time of entering and leaving the office, deployed with Docker on a Raspberry Pi, using CSS animations to display the data in the look of a radar
+*StarUML MDJ difftool*
+- Golang based CLI tool to display a coloured text diff of two StarUML ER Diagram JSON files
 
-  *Poll Wagyu Website*
-  - Upgraded and re-themed a Wordpress website deployed to VentraIP with CPanel
+*Poll Wagyu Website*
+- Upgraded and re-themed a Wordpress website deployed to VentraIP with CPanel
 
-  *Australian Architects Declare Website*
-  - A custom Wordpress website deployed on a cloud VPS with docker-compose to supersede a shared CraftCMS based solution
+*Australian Architects Declare Website*
+- A custom Wordpress website deployed on a cloud VPS with docker-compose to supersede a shared CraftCMS based solution
 ]
 
 #grid(
