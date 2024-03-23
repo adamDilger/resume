@@ -37,15 +37,18 @@
 	#line(stroke: rgb("D8D8D8"), length: 100%)
   == Technical Skills
   -	Javascript/Typescript
-  -	NodeJS/npm/webpack/vite
+    -	Vue/React
   -	Java/Spring
-  -	Vue 3/Nuxt
+  - GIS
+    - ArcGIS/OpenLayers
   -	Golang
-  -	TailwindCSS
+  -	NodeJS/Deno
+  - C\#/.NET
   -	SQL/ORM
   -	Docker
+  -	TailwindCSS/Bootstrap
   - Serverless
-    - (cloudflare workers, deno deploy)
+    - Cloudflare Workers, Deno Deploy
   - CLI tools
     -	vim/git/gnu-utils/tmux
 
@@ -83,6 +86,8 @@
 
     Senior-level developer tasked with designing, developing and testing features and bugfixes in new and existing codebases. In this role, I was assigned the responsibility of maintaining Geometry's core codebase, and was instrumental in the process of releasing upgrades and improvements that were consumed by a number of projects.
 
+    Geometry's applications have a heavy GIS focus, which has allowed me to gain experience in handling, manipulating, and displaying spatial data, as well as working with a range of mapping libraries and APIs.
+
     Projects:
     - _*Geometry Enterprise Platform (GEP)*_
       - A template project as a base for other Geometry projects
@@ -104,13 +109,12 @@
     time: "Jan 2018 - Feb 2020"
   )
 
-  Mid-level developer tasked with providing managed services to a range of products and technologies. In this role I worked with business analysts and clients directly to triage,
-scope and deliver bugfixes and enhancements in a montly release cycle.
+  Mid-level developer tasked with providing managed services to a range of products and technologies. In this role I worked with business analysts and clients directly to triage, scope and deliver bugfixes and enhancements in a monthly release cycle.
 
   Projects:
   - _*Aurora PAYG+*_
     - ReactJS frontend with d3.js charts component
-    - .NET Web API deployed on Azure infrastructure, built with TeamCity CI
+    - C\#/.NET Web API deployed on Azure infrastructure, built with TeamCity CI
   	- ReactNative mobile application
   - _*Betfair Live*_
     - ReactJS frontend with VictoryCharts component
@@ -136,10 +140,10 @@ scope and deliver bugfixes and enhancements in a montly release cycle.
 = Personal Projects
 
 *#underline(link("https://adventory.gift")[Adventory]) - Christmas Present List Manager*
-- Vue3/Nuxt PWA to view, manage and update live Christmas lists for a group, deployed on cloudflare workers with turso database, authenticated via Google Oauth
+- Vue3/Nuxt PWA to view, manage and update live Christmas lists for a group, deployed on Cloudflare Workers with Turso database, authenticated via Google Oauth
 
 *E-paper display wireless dashboard*
-- Custom ESP32 based e-paper display to show live data from a range of sources including weather, solar power generation, with data collated/polled from a deno deploy serveless function
+- Custom ESP32 based e-paper display to show live data from a range of sources including weather, solar power generation, with data collated/polled from a Deno Deploy serverless function
 
 *Raspberry Pi Time Tracker*
 - Golang/sqlite/svelte app to track and log the time of entering and leaving the office, deployed with Docker on a Raspberry Pi, using CSS animations to display the data in the look of a radar
