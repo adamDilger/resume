@@ -6,6 +6,10 @@
 #let lightgray = rgb("D8D8D8")
 #let blue = rgb("0049A7")
 
+#let my_email = "adamdilger1@gmail.com"
+#let my_address = "<my address>"
+#let my_phone = "+61 4xx xxx xxx"
+
 #align(center)[
   #text(18pt)[= Adam Dilger]
   Full Stack Web Developer
@@ -23,9 +27,9 @@
 		tight: false,
 		marker: pad(top: 1pt, circle(radius: 2pt, fill: blue)),
 		spacing: 16pt,
-		[adamdilger1@\gmail.com],
-		[\<home_address\>],
-		[\<mobile_phone\>],
+		my_email,
+		my_address,
+		my_phone
 	)
 
 	#line(stroke: rgb("D8D8D8"), length: 100%)
@@ -81,7 +85,7 @@
   #exp(
     title: "Full Stack Developer",
     company: "Geometry Pty Ltd",
-    time: "Feb 2020 - Present"
+    time: "Feb 2020 - Dec 2024"
   )
 
     Senior-level developer tasked with designing, developing and testing features and bugfixes in new and existing codebases. In this role, I was assigned the responsibility of maintaining Geometry's core codebase, and was instrumental in the process of releasing upgrades and improvements that were consumed by a number of projects.
@@ -139,7 +143,7 @@
 #let personal_projects = [
 = Personal Projects
 
-*#underline(link("https://adventory.gift")[Adventory]) - Christmas Present List Manager*
+*#underline(link("https://adventory.gift")[Adventory.gift]) - Christmas Present List Manager*
 - Vue3/Nuxt PWA to view, manage and update live Christmas lists for a group, deployed on Cloudflare Workers with Turso database, authenticated via Google Oauth
 
 *E-paper display wireless dashboard*
@@ -149,9 +153,6 @@
 - Golang/sqlite/svelte app to track and log the time of entering and leaving the office, deployed with Docker on a Raspberry Pi, using CSS animations to display the data in the look of a radar
 *StarUML MDJ difftool*
 - Golang based CLI tool to display a coloured text diff of two StarUML ER Diagram JSON files
-
-*Poll Wagyu Website*
-- Upgraded and re-themed a Wordpress website deployed to VentraIP with CPanel
 
 *Australian Architects Declare Website*
 - A custom Wordpress website deployed on a cloud VPS with docker-compose to supersede a shared CraftCMS based solution
