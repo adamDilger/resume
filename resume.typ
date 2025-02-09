@@ -43,17 +43,19 @@
   -	Javascript/Typescript
     -	Vue/React
   -	Java/Spring
-  - GIS
-    - ArcGIS/OpenLayers
   -	Golang
   -	NodeJS/Deno
   - C\#/.NET
   -	SQL/ORM
+  - GIS
+    - ArcGIS/OpenLayers
   -	Docker
   -	TailwindCSS/Bootstrap
   - Serverless
     - Cloudflare Workers, Deno Deploy
-  - CLI tools
+	- Automated Testing
+	  - Cypress, Playwright
+- CLI tools
     -	vim/git/gnu-utils/tmux
 
 	#line(stroke: rgb("D8D8D8"), length: 100%)
@@ -149,8 +151,12 @@
 *E-paper display wireless dashboard*
 - Custom ESP32 based e-paper display to show live data from a range of sources including weather, solar power generation, with data collated/polled from a Deno Deploy serverless function
 
+*Basic Terminal Emulator*
+- Primitive terminal emulator written in Swift, with Metal graphics for character rendering. A learning exercise to understand the fundamentals of terminal emulators, text parsing, escape codes and rendering.
+
 *Raspberry Pi Time Tracker*
 - Golang/sqlite/svelte app to track and log the time of entering and leaving the office, deployed with Docker on a Raspberry Pi, using CSS animations to display the data in the look of a radar
+
 *StarUML MDJ difftool*
 - Golang based CLI tool to display a coloured text diff of two StarUML ER Diagram JSON files
 
